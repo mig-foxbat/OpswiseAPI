@@ -1,7 +1,5 @@
 {
-    "url":{
-
-        "general":{ "login" : "/opswise/login.do"
+  "general":{ "login" : "/opswise/login.do"
         },
         "task":{
             "create":"/opswise/resources/task/ops-task-create",
@@ -27,5 +25,4 @@
         "virtual_resource" : {
             "limit" : "/opswise/resources/virtual/ops-update-resource-limit"
         }
-    }
 }

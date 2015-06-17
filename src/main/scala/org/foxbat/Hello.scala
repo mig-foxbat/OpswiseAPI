@@ -1,13 +1,13 @@
 package org.foxbat
 
-import org.foxbat.opswise.core.TaskHandler
+import org.foxbat.opswise.core.OpswiseAPIManager
 import org.foxbat.opswise.settings.Task.Create
 
 
 object Hello {
   def main(args: Array[String]): Unit = {
-  val task = new TaskHandler(null)
-    task.create(Create(name="test_job",command = "F u", agent = "Smith"))
+    val api = new OpswiseAPIManager()
+    api.getTaskHandler().create(Create(name="test_job1", command="echo All Hail Megatron", agent = "optimus-dev2 - AGNT0002"))
 }
 }
 

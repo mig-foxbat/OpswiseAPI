@@ -2,7 +2,7 @@
     "server": {
         "username": "chlr",
         "password": "seriesT-800",
-        "host": "optimus-staging-scheduler1.snc1",
+        "host": "localhost:9011",
         "port": "80",
         "database": {
             "host": "127.0.0.1",

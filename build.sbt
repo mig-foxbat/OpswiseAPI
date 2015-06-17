@@ -13,7 +13,7 @@ Twirl.settings
 
 libraryDependencies += "io.spray" %%  "spray-json" % "1.3.2"
 libraryDependencies += "com.typesafe.play" %% "play-json" % "2.3.4"
-
+libraryDependencies += "net.databinder.dispatch" %% "dispatch-core" % "0.11.2"
 
 
 
