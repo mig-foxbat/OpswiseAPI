@@ -1,0 +1,17 @@
+{
+    "server": {
+        "username": "chlr",
+        "password": "seriesT-800",
+        "host": "optimus-staging-scheduler1.snc1",
+        "port": "80",
+        "database": {
+            "host": "127.0.0.1",
+            "username": "opswise_ro",
+            "password": "opswise_ro",
+            "port": "9010",
+            "database": "opswise"
+        }
+    }
+}
+
+

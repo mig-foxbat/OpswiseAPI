@@ -1,0 +1,31 @@
+@(setting: org.foxbat.opswise.settings.Task.Create)
+
+<?xml version="1.0"?>
+<task type="unix">
+<properties>
+    <entry>
+        <key>summary</key>
+        <value>Optimus task</value>
+    </entry>
+    <entry>
+        <key>name</key>
+        <value>@setting.name</value>
+    </entry>
+    <entry>
+        <key>command</key>
+        <value>@setting.command</value>
+    </entry>
+    <entry>
+        <key>exit_code_processing</key>
+        <value>1</value>
+    </entry>
+    <entry>
+        <key>exit_codes</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>agent</key>
+        <value>@setting.agent</value>
+    </entry>
+</properties>
+</task>
